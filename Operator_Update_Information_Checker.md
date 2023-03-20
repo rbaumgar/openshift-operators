@@ -52,9 +52,10 @@ Non of this operator channel has defined a latest version. This does not mean it
 When you select MetalLB operator you will see an example of an operator with just one channel. And when you upgrade from from OpenShift version 4.10 to 4.12 the operator will be automatically upgraded to a new version. (4.12.0-202303021943)
 
 ## API Interface
-Is their an API available/planed? json/jaml output
-How to call?
-Would be nice, to get only the operators I am running on my cluster
+- Is their an API available/planed? json/jaml output
+- How to call?
+- Would be nice, to get only the operators I am running on my cluster
+- How to select a list of operators?
 
 ```shell
 $ oc get subscriptions.operators.coreos.com -A -o custom-columns='NAME:.metadata.name,CHANNEL:.spec.channel' --no-headers |sort
