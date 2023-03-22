@@ -4,7 +4,7 @@ The Operator Update Information Checker
 
 # Summery
 
-Recently Red Hat ha released a tool at the Customer Portal Labs which can give a very detailed information about Operators and available updates, supported versions, and much more.
+Recently Red Hat has released a tool at the Customer Portal Labs which can give a very detailed information about Operators and available updates, supported versions, and much more.
 
 The name is **Red Hat OpenShift Container Platform Operator Update Information Checker**
 
@@ -57,7 +57,7 @@ When you select MetalLB operator you will see an example of an operator with jus
 
 ## API Interface
 
-- Is their an API available/planed? json/yaml output
+- Is there an API available/planned? json/yaml output
 - How to call?
 - Would be nice, to get only the operators I am running on my cluster
 - How to select a list of operators?
