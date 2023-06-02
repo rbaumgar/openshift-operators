@@ -10,7 +10,7 @@ Recently, Red Hat has released a tool at the Customer Portal Labs which can give
 The name of that tool is **Red Hat OpenShift Container Platform Operator Update Information Checker**.
 
 You can find it at the 
-[Customer Portal Labs](https://access.redhat.com/labs/).
+[Customer Portal Labs](https://access.redhat.com/labs/ocpouic/).
 
 ![Customer Portal Labs](images/labs01.png)
 
@@ -55,6 +55,10 @@ None of these operator channels has defined the latest version. This does not me
 ![MetalsLB Operator details](images/labs05.png)
 
 If you select the MetalLB operator you will see an example of an operator that has just one channel. And when you upgrade from OpenShift version 4.10 to 4.12, the operator will be automatically upgraded to a newer version (4.12.0-202303021943).
+
+
+This tool on the Red Hat Customer Portal Labs will give you more detailed information about the life cycle of the long list of OpenShift operators. The numbers are all the time growing and the version mix requires such information.
+
 
 ## API Interface
 
